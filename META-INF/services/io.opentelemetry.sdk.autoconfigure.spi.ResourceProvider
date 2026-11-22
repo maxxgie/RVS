@@ -1,0 +1,7 @@
+io.opentelemetry.instrumentation.resources.ContainerResourceProvider
+io.opentelemetry.instrumentation.resources.HostResourceProvider
+io.opentelemetry.instrumentation.resources.JarServiceNameDetector
+io.opentelemetry.instrumentation.resources.ManifestResourceProvider
+io.opentelemetry.instrumentation.resources.OsResourceProvider
+io.opentelemetry.instrumentation.resources.ProcessResourceProvider
+io.opentelemetry.instrumentation.resources.ProcessRuntimeResourceProvider

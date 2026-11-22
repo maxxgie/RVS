@@ -1,0 +1,44 @@
+{
+  "application": {
+    "name": "Burp Suite Clone",
+    "version": "1.0.0",
+    "javaVersion": "21"
+  },
+  "proxy": {
+    "port": 8080,
+    "bindAddress": "127.0.0.1",
+    "interceptEnabled": false,
+    "historyLimit": 10000,
+    "websocketEnabled": true
+  },
+  "scanner": {
+    "activeScanThreads": 5,
+    "passiveScanEnabled": true,
+    "crawlDepth": 5,
+    "maxRequestsPerSecond": 10
+  },
+  "intruder": {
+    "maxThreads": 5,
+    "requestDelay": 0,
+    "followRedirects": false
+  },
+  "repeater": {
+    "maxTabs": 20,
+    "followRedirects": false
+  },
+  "ui": {
+    "theme": "dark",
+    "fontSize": 12,
+    "fontFamily": "Consolas"
+  },
+  "persistence": {
+    "projectDir": "~/.burpsuiteclone/projects",
+    "tempDir": "~/.burpsuiteclone/temp",
+    "autoSaveInterval": 300
+  },
+  "logging": {
+    "level": "INFO",
+    "maxFileSize": "10MB",
+    "maxFiles": 5
+  }
+}
