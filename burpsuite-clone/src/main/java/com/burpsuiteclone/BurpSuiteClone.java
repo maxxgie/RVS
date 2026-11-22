@@ -97,7 +97,7 @@ public class BurpSuiteClone {
 
         suiteTabs.addTab("Dashboard", createDashboardPanel());
         suiteTabs.addTab("Target", createTargetPanel());
-        suiteTabs.addTab("Proxy", createProxyPanel());
+        suiteTabs.addTab("Proxy", new com.burpsuiteclone.ui.proxy.ProxyPanel());
         suiteTabs.addTab("Intruder", createIntruderPanel());
         suiteTabs.addTab("Repeater", createRepeaterPanel());
         suiteTabs.addTab("Sequencer", createSequencerPanel());
